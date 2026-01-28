@@ -9,7 +9,8 @@
 
     display: flex;
     justify-content: center; 
-    align-items: center;    
+    align-items: center;   
+    background-attachment: fixed;
 }
 body {
     color: #40514e;
@@ -97,3 +98,4 @@ body {
     min-width: 250px;  
            
 }
+
