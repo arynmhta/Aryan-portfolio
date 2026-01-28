@@ -1,0 +1,99 @@
+.top-container {
+    min-height: 100vh;
+    position: relative;
+
+    background-image: url("./Images/mountains-1412683_1920.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+}
+body {
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    background-color: #504a60;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.title-text h1 {
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 8rem;
+    color: navy;
+    margin: 0;
+    text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.4);
+}
+.title-text p{
+    font-family: 'Dosis', Static;
+    font-size: 3rem;
+    color: aliceblue;
+    margin: 0;
+}
+.lead{
+    font-family: 'Dosis', Static;
+    font-size: 1.5rem;
+    color: aliceblue;
+    margin: 0;
+}
+.text-body-emphasis{
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 4rem;
+    margin: 0;
+    text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.4);
+}
+.d-block{
+    border-radius: 50%;
+}
+.featurette-heading {
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 4rem;
+    color: black;
+    margin: 0;
+    text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.4);
+}
+.skills-list {
+    
+    margin: 0;             
+    padding-left: 0;        
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5rem;
+    color: aliceblue;
+}
+
+.skills-list li {
+    margin-bottom: 8px;
+}
+.experience-list{
+    padding-top: 25px;
+    margin: 0;             
+    padding-left: 0;        
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5rem;
+    color: aliceblue;
+}
+.education-details {
+    display: flex;
+    justify-content: center;  
+    align-items: flex-start;   
+    gap: 40px;                 
+    flex-wrap: wrap;           
+    color: aliceblue;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5rem;
+}
+
+.education-container {
+    padding: 20px;
+    text-align: center;        
+    min-width: 250px;  
+           
+}
